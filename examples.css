@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+
+}
+.main .heading{
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'Kanit', sans-serif;
+    animation: heading 600ms 100ms;
+}
+@keyframes heading{
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(0%)
+    }
+}
+.main .content h2{
+    color: white;
+    text-align: center;
+}
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+}
